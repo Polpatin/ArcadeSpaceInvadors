@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &537616075638731852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 537616075638731850}
+  - component: {fileID: 537616075638731853}
+  m_Layer: 0
+  m_Name: InvadersSpavner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &537616075638731850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537616075638731852}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.052762035, y: 10.58, z: -3.2314453}
+  m_LocalScale: {x: 0.65952104, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &537616075638731853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537616075638731852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4333726a23d8d804d8afed82fe275c0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invadersPrefab:
+  - {fileID: 6620511549426593320, guid: 3a2a6213d6e151f4dad1af20eb040b6e, type: 3}
+  - {fileID: 4296395290467509080, guid: fab9544e92061c34eb0c1661d14d99ee, type: 3}
+  - {fileID: 1083557355769146992, guid: 74d6dd8e9fc8b3e4ba499d458f2d06e2, type: 3}
